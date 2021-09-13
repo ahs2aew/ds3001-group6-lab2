@@ -14,8 +14,9 @@ data = diamonds
 
 ```{r}
 #selecting aes/adding labels
-ggplot(data = diamonds, aes(x = carat, y = price)) +
+ggplot(data = diamonds, aes(x = carat, y = price, color=cut)) +
   geom_point()
+
 ```
 
 
