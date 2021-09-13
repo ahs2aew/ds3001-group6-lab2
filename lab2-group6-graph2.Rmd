@@ -1,0 +1,17 @@
+---
+title: "Lab2-Group6-graph2"
+author: "Anna Stein"
+date: "9/13/2021"
+output: html_document
+---
+
+```{r}
+# loading in data
+library(ggplot2)
+View(diamonds)
+data = diamonds
+```
+
+
+
+
